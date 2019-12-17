@@ -7,9 +7,8 @@
 # * using a password dictionary generating a decrypted output file.
 # *********************************************************************************
 # * For use this version was necessary breaking rockyou.txt in parts of 4Gb with
-# * the command: $ split -l 4000000 rockyou.txt 
-# * At this moment was generated xaa, xbb, xcc,... files that I changed the name 
-# * to rockyoup01, rockyoup02, rockyoup03,...
+# * the command: split -l 4000000 -d rockyou.txt rockyoup  
+# * and was generated files like rockyoup01, rockyoup02, rockyoup03,...
 # *********************************************************************************
 # * Example: $ ./decgpg myfile.gpg myfileout.txt /usr/share/wordlists/rockyoup01
 # *********************************************************************************
